@@ -1,0 +1,20 @@
+input SignUpInput {
+	email: String!
+	password: String!
+	phoneNumber: Int!
+	birthday: AWSDate!
+	username: String!
+}
+
+input UpdateUserInput {
+	email: String
+	password: String
+	phoneNumber: Int
+	birthday: AWSDate
+	username: String
+	id: ID!
+}
+input SignInInput {
+	email: String!
+	password: String!
+}

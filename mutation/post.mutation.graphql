@@ -1,0 +1,5 @@
+ type mutation {
+	newPost(post: CreatePostInput!): Post!
+	updatePost(updatePost: UpdatePostInput!): String!
+	removePost(removePost: UpdatePostInput!): String!
+ }

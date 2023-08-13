@@ -1,0 +1,5 @@
+type Mutation {
+	signIn(user: SignUpInput!): UserEntity!
+	signUp(newUser: SignUpInput!): UserEntity!
+	updateUser(input: UpdateUserInput!): UserEntity!
+}

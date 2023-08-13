@@ -1,0 +1,15 @@
+input CommentPagination {
+	postId: ID!
+	page: Int!
+}
+
+input CreateCommentInput {
+	postId: ID!
+	comment: String!
+}
+
+input UpdateCommentInput {
+	postId: ID!
+	comment: String
+	id: Int!
+}

@@ -1,0 +1,5 @@
+type mutation{
+	createComment(commentInfo: CreateCommentInput!): Comment!
+	updateComment(updateComment: UpdateCommentInput!): String!
+	removeComment(comment: UpdateCommentInput!): String!
+}

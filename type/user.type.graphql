@@ -1,0 +1,8 @@
+type UserEntity {
+	id: ID!
+	username: String!
+	email: String!
+	token: String!
+	phoneNumber: Integer!
+	birthday: Date!
+}
